@@ -1,0 +1,55 @@
+﻿@model PhanPhoiSach.Models.sale_order
+
+@{
+    ViewBag.Title = "Xóa phiếu xuất";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa phiếu xuất</h2>
+
+<h3>Bạn chắc chắn muốn xóa phiếu xuất này?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.agency.agency_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.agency.agency_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sale_order_recipent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sale_order_recipent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sale_order_created_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sale_order_created_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sale_order_total_money)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sale_order_total_money)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-primary" /> |
+            @Html.ActionLink("Quay lại", "Index")
+        </div>
+    }
+</div>

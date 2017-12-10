@@ -1,0 +1,84 @@
+﻿@model PhanPhoiSach.Models.agency_debt
+
+@{
+    ViewBag.Title = "Chi tiết nợ đại lý";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết nợ đại lý</h2>
+<hr />
+
+@if (Model != null)
+{ 
+    <div>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.agency.agency_name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.agency.agency_name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.agency_debt_total_money)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.agency_debt_total_money)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.agency_debt_time)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.agency_debt_time)
+            </dd>
+        </dl>
+    </div>
+
+    <table class="table">
+
+        <tr>
+            <th>
+                Tên sách
+            </th>
+            <th>
+                Số lượng
+            </th>
+            <th>
+                Giá xuất
+            </th>
+            <th>
+                Tiền nợ
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.agency_debt_item)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.book_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.agency_debt_item_quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.book_seling_price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.agency_debt_item_money)
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <h3>Không tồn tại chi tiết để hiển thị</h3>
+}
+<p>
+    @Html.ActionLink("Quay lại", "Thongke")
+</p>

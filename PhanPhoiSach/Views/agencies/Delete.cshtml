@@ -1,0 +1,48 @@
+﻿@model PhanPhoiSach.Models.agency
+
+@{
+    ViewBag.Title = "Xóa đại lý";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa đại lý</h2>
+
+<h3>Bạn chắc chắn muốn xáo đại lý này?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.agency_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.agency_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.agency_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.agency_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.agency_phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.agency_phone)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-primary" /> |
+            @Html.ActionLink("Quay lại", "Index")
+        </div>
+    }
+</div>

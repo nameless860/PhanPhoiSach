@@ -1,0 +1,53 @@
+﻿@model PhanPhoiSach.Models.purchase_order
+
+@{
+    ViewBag.Title = "Sửa phiếu nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Sửa phiếu nhập</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.purchase_order_id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.fk_supplier, "Tên NXB", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("fk_supplier", String.Empty)
+                @Html.ValidationMessageFor(model => model.fk_supplier)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.purchase_order_recipent, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.purchase_order_recipent)
+                @Html.ValidationMessageFor(model => model.purchase_order_recipent)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.purchase_order_created_at, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.purchase_order_created_at)
+                @Html.ValidationMessageFor(model => model.purchase_order_created_at)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại", "Index")
+</div>

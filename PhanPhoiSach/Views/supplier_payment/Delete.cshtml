@@ -1,0 +1,47 @@
+﻿@model PhanPhoiSach.Models.purchase_payment
+
+@{
+    ViewBag.Title = "Xóa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa phiếu thanh toán đại lý</h2>
+
+<h3>Bạn chắc chắn muốn xóa phiếu thanh toán NXB?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.supplier.supplier_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.supplier.supplier_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_payment_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_payment_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_payment_money_pay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_payment_money_pay)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-primary" /> |
+            @Html.ActionLink("Trở lại", "Index")
+        </div>
+    }
+</div>

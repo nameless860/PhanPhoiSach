@@ -1,0 +1,55 @@
+﻿@model PhanPhoiSach.Models.purchase_order
+
+@{
+    ViewBag.Title = "Xóa phiếu nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa phiếu nhập</h2>
+
+<h3>Bạn chắc chắn muốn xóa phiếu nhập này?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.supplier.supplier_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.supplier.supplier_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_order_recipent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_order_recipent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_order_created_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_order_created_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_order_total_money)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_order_total_money)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-primary" /> |
+            @Html.ActionLink("Quay lại", "Index")
+        </div>
+    }
+</div>

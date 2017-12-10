@@ -1,0 +1,79 @@
+﻿@model PhanPhoiSach.Models.purchase_payment
+
+@{
+    ViewBag.Title = "Phiếu xuất";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết phiếu thanh toán</h2>
+
+<div>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.supplier.supplier_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.supplier.supplier_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_payment_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_payment_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_payment_money_pay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_payment_money_pay)
+        </dd>
+    </dl>
+</div>
+
+<table class="table">
+
+    <tr>
+        <th>
+            Tên sách
+        </th>
+        <th>
+            Số lượng thanh toán
+        </th>
+        <th>
+            Giá
+        </th>
+        <th>
+            Thành tiền
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.purchase_payment_item)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.book.book_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.purchase_payment_item_quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.purchase_payment_item_price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.purchase_payment_item_money)
+            </td>
+        </tr>
+    }
+</table>
+
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.purchase_payment_id }) |
+    @Html.ActionLink("Quay lại", "Index")
+</p>

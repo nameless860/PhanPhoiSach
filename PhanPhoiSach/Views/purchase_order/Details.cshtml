@@ -1,0 +1,89 @@
+﻿@model PhanPhoiSach.Models.purchase_order
+
+@{
+    ViewBag.Title = "Chi tiết phiếu nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+    <h4>Phiếu nhập</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.supplier.supplier_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.supplier.supplier_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_order_recipent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_order_recipent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_order_created_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_order_created_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.purchase_order_total_money)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.purchase_order_total_money)
+        </dd>
+
+    </dl>
+</div>
+
+<table class="table">
+
+    <tr>
+        <th>
+            Tên sách
+        </th>
+        <th>
+            Số lượng
+        </th>
+        <th>
+            Giá
+        </th>
+        <th>
+            Thành tiền
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.purchase_order_item)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.book.book_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.purchase_order_item_quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.purchase_order_item_price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.purchase_order_money)
+            </td>
+        </tr>
+    }
+</table>
+
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.purchase_order_id }) |
+    @Html.ActionLink("Quay lại", "Index")
+</p>

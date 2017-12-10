@@ -1,0 +1,165 @@
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\PhanPhoiSach.dll.config
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\PhanPhoiSach.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\PhanPhoiSach.pdb
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Antlr3.Runtime.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.SqlServer.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Google.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Web.Infrastructure.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Newtonsoft.Json.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Owin.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Helpers.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Mvc.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Optimization.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Razor.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Deployment.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Razor.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\WebGrease.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Helpers.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Mvc.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Optimization.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Razor.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Deployment.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Razor.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Newtonsoft.Json.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Antlr3.Runtime.pdb
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.SqlServer.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Google.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\obj\Debug\PhanPhoiSach.csprojResolveAssemblyReference.cache
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\obj\Debug\PhanPhoiSach.dll
+c:\users\wtf\documents\visual studio 2013\Projects\PhanPhoiSach\PhanPhoiSach\obj\Debug\PhanPhoiSach.pdb
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\PhanPhoiSach.dll.config
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\PhanPhoiSach.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\PhanPhoiSach.pdb
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Antlr3.Runtime.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.SqlServer.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Newtonsoft.Json.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Owin.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Helpers.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Mvc.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Optimization.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Razor.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Razor.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\WebGrease.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Helpers.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Mvc.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Optimization.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.Razor.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\System.Web.WebPages.Razor.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Newtonsoft.Json.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Antlr3.Runtime.pdb
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\EntityFramework.SqlServer.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\obj\Debug\PhanPhoiSach.csprojResolveAssemblyReference.cache
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\obj\Debug\PhanPhoiSach.dll
+C:\Users\WTF\Desktop\PhanPhoiSach\PhanPhoiSach\obj\Debug\PhanPhoiSach.pdb
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\obj\Debug\PhanPhoiSach.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\PhanPhoiSach.dll.config
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\PhanPhoiSach.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\PhanPhoiSach.pdb
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Antlr3.Runtime.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\EntityFramework.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\EntityFramework.SqlServer.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Newtonsoft.Json.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Owin.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Helpers.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Mvc.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Optimization.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Razor.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.WebPages.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.WebPages.Razor.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\WebGrease.dll
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Helpers.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Mvc.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Optimization.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.Razor.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.WebPages.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\System.Web.WebPages.Razor.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Newtonsoft.Json.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Antlr3.Runtime.pdb
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\EntityFramework.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\EntityFramework.SqlServer.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\obj\Debug\PhanPhoiSach.pdb
+C:\Users\WTF\Desktop\PhanPhoiSach - Copy\PhanPhoiSach\obj\Debug\PhanPhoiSach.csprojResolveAssemblyReference.cache

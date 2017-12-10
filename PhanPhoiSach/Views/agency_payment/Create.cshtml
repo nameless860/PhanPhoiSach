@@ -1,0 +1,40 @@
+﻿@model PhanPhoiSach.Models.sale_payment
+
+@{
+    ViewBag.Title = "Thanh toán - Đại lý";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tạo phiếu thanh toán đại lý</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class="control-label col-md-2">Tên đại lý</label>
+            <div class="col-md-10">
+                @Html.DropDownList("fk_agency", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.fk_agency, "", new { @class = "text-danger" })
+            </div>
+        </div>
+  
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Nhập chi tiết" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

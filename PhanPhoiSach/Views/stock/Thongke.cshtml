@@ -1,0 +1,62 @@
+﻿@model PhanPhoiSach.Models.store
+
+@{
+    ViewBag.Title = "Thống kê tồn kho";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var dstonkho = (List<PhanPhoiSach.Models.store>)Session["tonkho"];
+}
+
+<h2>Thống kê tồn kho</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Thống kê tồn kho</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class="control-label col-md-2">Chọn thời điểm</label>
+            <div class="col-md-10">
+                <input type="date" name="date" class="form-control" required>
+                @*@Html.ValidationMessageFor(model => model.fk_supplier, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Thống kê" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+<hr />
+<center><h3>Danh sách tồn kho tính tới thời điểm: <font color="red">@Session["date"]</font></h3></center>
+<table class="table table-striped table-bordered bulk_action">
+    <thead>
+        <tr>
+            <td><b>Tên sách</b></td>
+            <td><b>Số lượng tồn</b></td>
+            <td><b>Giá nhập</b></td>
+            <td><b>Giá bán</b></td>
+        </tr>
+    </thead>
+    <tbody>
+        @if (dstonkho != null)
+        {
+            foreach (var tk in dstonkho)
+            {
+                <tr>
+                    <td>@tk.book.book_name</td>
+                    <td>@tk.store_quantity</td>
+                    <td>@tk.book.book_seling_price</td>
+                    <td>@tk.book.book_purchase_price</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+

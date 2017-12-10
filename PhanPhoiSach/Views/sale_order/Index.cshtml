@@ -1,0 +1,52 @@
+﻿@model IEnumerable<PhanPhoiSach.Models.sale_order>
+
+@{
+    ViewBag.Title = "Phiếu xuất";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Phiếu xuất</h2>
+
+<p>
+    @Html.ActionLink("Tạo mới", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.agency.agency_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sale_order_recipent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sale_order_created_at)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sale_order_total_money)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.agency.agency_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sale_order_recipent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sale_order_created_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sale_order_total_money)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Edit", new { id=item.sale_order_id }) |
+            @Html.ActionLink("Xem chi tiết", "Details", new { id=item.sale_order_id }) |
+            @Html.ActionLink("Xóa", "Delete", new { id=item.sale_order_id })
+        </td>
+    </tr>
+}
+
+</table>
